@@ -50,21 +50,27 @@ how to acc htdocs :
 - Place the repo into the new folder
 
 4) Active ngrok 
-ngrok http [port] 
-examples port : 80, 8080, 7882
+ngrok http [port] <br>
+examples port : 80, 8080, 7882<br>
 [] => must remove
 
 5) Specifying the shell according to the folders that have been extracted. And write this:
-php -S localhost:[port]
-examples port : 80, 8080, 7882
+php -S localhost:[port]<br>
+examples port : 80, 8080, 7882<br>
 [] => must remove
 
 6) Get your Telegram Bot Key with <b>botfather</b>
 
-================================================================================<br>
+=====================================================================<br>
 Lets code
 
 7) Make a folder private/
 After you made this folder, you should set or write Bot Telegram Key
 
 8) Make sure connected with xampp and donwload our SQL file
+
+
+How to run in web hosting:
+1) Just store your code in web host
+2) Make sure, your main file is not error
+3) And setwebhook
