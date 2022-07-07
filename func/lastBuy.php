@@ -17,12 +17,7 @@
         if ($resultQueryView->num_rows > 0) {
             while ($viewDataCatatanUser = mysqli_fetch_assoc($resultQueryView)) {
                 $resultCatatanUser = (object) $viewDataCatatanUser;
-
-                print_r($resultCatatanUser);
-
                 $message .= "Harga beli terakhir pada $txt : Rp " . $resultCatatanUser->lastb . PHP_EOL;
-                $message .= "\n\n";
-                $message .= cmd();
             }
 
         }

@@ -22,11 +22,7 @@
                 $message .= "Harga IDR Terendah   : Rp " . $resultCatatanUser->minidr . PHP_EOL;
                 $message .= "Harga USD Tertinggi   : $ " . $resultCatatanUser->maxusd . PHP_EOL;
                 $message .= "Harga USD Terendah   : $ " . $resultCatatanUser->minusd . PHP_EOL;
-                $message .= "\n\n";
-                $message .= cmd();
             }
-
-            // /harga (Untuk melihat harga IDR dan harga USD)\n4) /volume (untuk melihat volume IDR dan volume USD)\n5) /lastbuy (Untuk mengetahui harga beli terakhir)\n6) /lastsell (Untuk mengetahui harga jual terakhir)
         }
         else{
             $message = "Data Masih Kosong 🙄";

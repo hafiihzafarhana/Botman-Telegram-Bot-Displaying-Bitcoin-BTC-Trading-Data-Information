@@ -30,6 +30,7 @@ class ComposerStaticInit8efb116d5ba542a2e3367c4749f7c8b7
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Spatie\\Macroable\\' => 17,
+            'Screen\\' => 7,
         ),
         'R' => 
         array (
@@ -84,6 +85,10 @@ class ComposerStaticInit8efb116d5ba542a2e3367c4749f7c8b7
         'Spatie\\Macroable\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/macroable/src',
+        ),
+        'Screen\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/microweber/screen/src',
         ),
         'React\\Stream\\' => 
         array (

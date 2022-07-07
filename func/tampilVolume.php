@@ -23,8 +23,6 @@
                 $message .= "Volume IDR Terendah   : " . $resultCatatanUser->volminidr . PHP_EOL;
                 $message .= "Volume USD Tertinggi   : " . $resultCatatanUser->volmaxusd . PHP_EOL;
                 $message .= "Volume USD Terendah   : " . $resultCatatanUser->volminidr . PHP_EOL;
-                $message .= "\n\n";
-                $message .= cmd();
             }
 
         }

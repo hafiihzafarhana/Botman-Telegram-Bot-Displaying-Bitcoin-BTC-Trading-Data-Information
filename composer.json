@@ -1,6 +1,7 @@
 {
     "require": {
         "botman/botman": "^2.7",
-        "botman/driver-telegram": "^1.6"
+        "botman/driver-telegram": "^1.6",
+        "microweber/screen": "^1.0"
     }
 }

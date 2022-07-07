@@ -17,7 +17,6 @@
         if ($resultQueryView->num_rows > 0) {
             while ($viewDataCatatanUser = mysqli_fetch_assoc($resultQueryView)) {
                 $resultCatatanUser = (object) $viewDataCatatanUser;
-
                 $message .= $resultCatatanUser->gambar;
             }
 
@@ -25,5 +24,7 @@
         else{
             $message = "https://ibb.co/m03GYqW";
         }
+
+        return $message;
     }
 
